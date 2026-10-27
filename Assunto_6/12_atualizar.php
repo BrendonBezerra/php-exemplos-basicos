@@ -5,7 +5,7 @@
 // Credenciais para acesso
 $servername = "localhost";
 $username = "root";
-$password = "";
+$password = "Senai@118";
 $dbname = "exercicio";
 
 // Acessando de fato (BD exercicio)

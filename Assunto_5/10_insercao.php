@@ -26,7 +26,7 @@
         
         $servername = "localhost";
         $username = "root";
-        $password = "";
+        $password = "Senai@118";
         $dbname = "exercicio";
 
         // Tenta criar uma conexão com o banco de dados

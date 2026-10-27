@@ -27,7 +27,7 @@
             // Dados para conexão com o banco de dados
             $servidor = "localhost";
             $usuario = "root";
-            $senha = "";
+            $senha = "Senai@118";
             $banco = "exercicio";
 
             // Conecta ao BD
