@@ -1,26 +1,25 @@
 <?php
 session_start();
 
-if (!isset($_SESSION["usuario"])) {
+// Verifica se o usuário está logado.
+if (!isset($_SESSION['usuario'])) {
     header("Location: 15d_login.php");
     exit();
 }
-
 ?>
 
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Perfil do Usuário</title>
+    <title>Perfil</title>
 </head>
-<body style="background-color: <?php echo $_SESSION['$cor']; ?>;">
+<body style="background-color: <?php echo $_SESSION['cor']; ?>;">
 
-    <h1>Bem-vindo, <?php echo $_SESSION['$usuario']; ?>!</h1>
-    <p>Você entrou no sistema com sucesso.</p>
+    <h2>Bem-vindo, <?php echo $_SESSION['usuario']; ?>!</h2>
+    <p>Esta é sua página de perfil.</p>
 
-    <a href="15d_logout.php">Sair do sistema</a>
+    <a href="15d_logout.php">Sair</a>
 
 </body>
 </html>
